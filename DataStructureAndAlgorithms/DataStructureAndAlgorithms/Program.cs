@@ -1,5 +1,5 @@
 ﻿
-//using Algorithms_DataStruct_Lib;
+using Algorithms_DataStruct_Lib;
 using DataStructureAndAlgorithms;
 //using System.Diagnostics;
 
@@ -22,4 +22,8 @@ using DataStructureAndAlgorithms;
 
 //ArrayDemo.JaggedArrayDemo();
 
-ArrayDemo.IterateOver(new[] { 1, 2, 3 });
+//ArrayDemo.IterateOver(new[] { 1, 2, 3 });
+
+int[] array = [-11, 12, -42, 0, 1, 90, 68, 6, -9];
+
+Sorting.SelectionSort2(array);
